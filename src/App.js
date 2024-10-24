@@ -105,6 +105,7 @@ function App() {
           src={imageSrc}
           width="700px"
           height="400px"
+          alt="database"
         />
       </div>
 
