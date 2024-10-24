@@ -1,0 +1,117 @@
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: linear-gradient(135deg, #FFFFFF 0%, #AAB9EC 100%);
+  border-radius: 10px;
+
+}
+
+.contactHeader {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #060685;
+  margin-bottom: 20px;
+}
+
+.contactIcons {
+  display: flex;
+  justify-content: center;
+  gap: 30%;
+}
+
+.contactIcons a {
+  position: relative;
+  border-radius: 50%;
+  padding: 15px;
+  width: 50px; 
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  background-color: linear-gradient(135deg, #FFFFFF 0%, #AAB9EC 100%);
+}
+
+.contactIcons a:hover {
+  background-color: #F0F0F0; 
+  transform: scale(1.2);
+}
+
+.icon {
+  color: #060685; 
+  transition: color 0.3s ease;
+}
+
+
+.contactIcons a:hover .icon {
+  color: transparent; 
+}
+
+
+.contactIcons a span {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #060685;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+.contactIcons a:hover span {
+  opacity: 1;
+}
+@media (min-width:700px) and (max-width:900px) {
+
+  .contactIcons {
+  gap: 10%;
+}
+.contactIcons a
+{
+   width: 13%;
+    height: 44%;
+}
+
+}
+@media (min-width: 541px) and (max-width: 912px) {
+  .contactIcons {
+    gap: 20%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1200px)
+{
+  .contactIcons {
+    gap: 20%;
+  }
+  
+}
+@media (max-width:540px)
+{
+  .contactIcons
+  {
+    gap:10%;
+  }
+  .contactIcons a
+  {
+    width: 25px;
+    height: 25px;
+  }
+}
+.dark-mode .icon
+{
+  color: white;
+}
+.dark-mode .contactIcons a span
+{
+  color: black;
+}
+.dark-mode .contactIcons a 
+{
+  border: 2px solid white;
+}

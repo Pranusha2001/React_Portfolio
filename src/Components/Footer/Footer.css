@@ -1,0 +1,19 @@
+.footer {
+    background: linear-gradient(135deg, #FFFFFF 0%, #AAB9EC 100%);
+    color: #060685;
+    text-align: center; 
+    padding: 20px 0; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    margin-top: auto; 
+  }
+  
+  .footer a {
+    color: blue;
+    text-decoration: none; 
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; 
+  }

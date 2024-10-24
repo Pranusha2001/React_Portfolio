@@ -1,0 +1,76 @@
+.aboutContent-header {
+    display: flex;
+    justify-content: center;
+    color: #060685;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+
+  .aboutPage {
+    opacity: 0; 
+    transform: scale(0); 
+    transition: opacity 2s ease, transform 2s ease; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.7vw;
+    color: #060685;
+    margin-left: 20px;
+    line-height: 1.6;
+    padding: 30px 50px 0px 33px;
+  }
+  .aboutPage.bloom {
+    opacity: 1; 
+    transform: scale(1); 
+  }
+  @media (min-width: 700px) and (max-width: 912px) 
+  {
+  
+    .aboutPage {
+      display: flex;
+      flex-direction: row-reverse;
+      font-size: 2vw;
+      padding: 3% 10% 0% 8%;
+    }
+    
+  }
+  @media (min-width: 541px) and (max-width: 912px) 
+  {
+  
+    .aboutPage {
+      display: flex;
+      flex-direction: row-reverse;
+      font-size: 2.5vw;
+      padding: 3% 10% 0% 8%;
+    }
+    
+  }
+  
+  @media (max-width: 540px) 
+  {
+    .aboutPage
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 2.6vw;
+        padding: 3% 9.2% 0% 10%;
+        margin-left:0;
+    }
+  }
+  @media (min-width:912px) and (max-width:1024px) 
+  {
+      .aboutPage {
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 2vw;
+        padding: 3% 9.2% 0% 10%;
+        margin-left: 0;
+    }
+  }
+  .dark-mode .aboutPage 
+  {
+    color: white;
+  }
