@@ -12,7 +12,6 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
-  const [imageSrc, setImageSrc] = useState('databasee.png');
   const [darkMode, setDarkMode] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 

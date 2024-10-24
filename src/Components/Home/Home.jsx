@@ -23,7 +23,7 @@ function Home() {
   return (
     <div className='content'>
       <div className='home'>{`{ ${typedText} }`}</div>
-      <img src="/coding_image.png" alt="Coding Image" className='home-img'/>
+      <img src="/coding_image.png" alt="Coding_Image_in_home" className='home-img'/>
     </div>
   );
 }
