@@ -12,6 +12,7 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+  const [imageSrc, setImageSrc] = useState('databasee.png');
   const [darkMode, setDarkMode] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -36,9 +37,7 @@ function App() {
       setWindowWidth(window.innerWidth);
       if (window.innerWidth <= 1024) {
         setImageSrc('databasee.png');
-      } else {
-        setImageSrc('portfolio-image.jpg');
-      }
+      } 
     };
 
     handleResize(); 
@@ -103,8 +102,7 @@ function App() {
 
       <div className="homeContent-left">
         <img
-          src="/databasee.png"
-          alt="PicOfComputerScreen"
+          src={imageSrc}
           width="700px"
           height="400px"
         />
