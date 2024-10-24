@@ -67,30 +67,6 @@
 .contactIcons a:hover span {
   opacity: 1;
 }
-@media (min-width:700px) and (max-width:900px) {
-
-  .contactIcons {
-  gap: 10%;
-}
-.contactIcons a
-{
-   width: 13%;
-    height: 44%;
-}
-
-}
-@media (min-width: 541px) and (max-width: 912px) {
-  .contactIcons {
-    gap: 20%;
-  }
-}
-@media (min-width: 900px) and (max-width: 1200px)
-{
-  .contactIcons {
-    gap: 20%;
-  }
-  
-}
 @media (max-width:540px)
 {
   .contactIcons
@@ -103,6 +79,32 @@
     height: 25px;
   }
 }
+@media (min-width: 541px) and (max-width: 912px) {
+  .contactIcons {
+    gap: 20%;
+  }
+}
+@media (min-width:700px) and (max-width:900px) {
+
+  .contactIcons {
+  gap: 10%;
+}
+.contactIcons a
+{
+   width: 13%;
+    height: 44%;
+}
+
+}
+
+@media (min-width: 900px) and (max-width: 1200px)
+{
+  .contactIcons {
+    gap: 20%;
+  }
+  
+}
+
 .dark-mode .icon
 {
   color: white;

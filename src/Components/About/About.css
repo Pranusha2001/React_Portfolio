@@ -26,16 +26,16 @@
     opacity: 1; 
     transform: scale(1); 
   }
-  @media (min-width: 700px) and (max-width: 912px) 
+  @media (max-width: 540px) 
   {
-  
-    .aboutPage {
-      display: flex;
-      flex-direction: row-reverse;
-      font-size: 2vw;
-      padding: 3% 10% 0% 8%;
+    .aboutPage
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 2.6vw;
+        padding: 3% 9.2% 0% 10%;
+        margin-left:0;
     }
-    
   }
   @media (min-width: 541px) and (max-width: 912px) 
   {
@@ -48,17 +48,16 @@
     }
     
   }
-  
-  @media (max-width: 540px) 
+  @media (min-width: 700px) and (max-width: 912px) 
   {
-    .aboutPage
-    {
-        display: flex;
-        flex-direction: row-reverse;
-        font-size: 2.6vw;
-        padding: 3% 9.2% 0% 10%;
-        margin-left:0;
+  
+    .aboutPage {
+      display: flex;
+      flex-direction: row-reverse;
+      font-size: 2vw;
+      padding: 3% 10% 0% 8%;
     }
+    
   }
   @media (min-width:912px) and (max-width:1024px) 
   {

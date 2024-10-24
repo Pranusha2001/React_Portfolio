@@ -25,11 +25,11 @@ function App() {
   ];
 
   const toggleSidebar = () => {
-    setIsOpen(prevState => !prevState); // Use the previous state to toggle
+    setIsOpen(prevState => !prevState); 
   };
 
   const toggleDarkMode = () => {
-    setDarkMode(prevState => !prevState); // Use the previous state to toggle
+    setDarkMode(prevState => !prevState);
   };
 
   useEffect(() => {

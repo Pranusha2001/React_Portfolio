@@ -38,6 +38,17 @@
   }
   
 }
+@media (min-width:541px) and (max-width:912px)
+{
+  .skillsGrid {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+.skillsPage {
+  display: flex;
+  justify-content: center;
+  margin: 7% 14% 0% 14%;
+}
   @media (min-width:700px) and (max-width:900px) 
   {
   .skillsGrid {
@@ -49,18 +60,6 @@
     margin: 7% 14% 0% 14%;
   }
 }
-  @media (min-width:541px) and (max-width:912px)
-  {
-    .skillsGrid {
-      grid-template-columns: repeat(3, 1fr); 
-    }
-  }
-  .skillsPage {
-    display: flex;
-    justify-content: center;
-    margin: 7% 14% 0% 14%;
-  }
-
 @media (min-width:900px) and (max-width:1200px) 
 {
   .skillsGrid {
