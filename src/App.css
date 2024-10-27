@@ -127,6 +127,7 @@ a:hover {
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
   transform: translateX(-100%);
   transition: transform 0.3s ease;
+  z-index: 999;
 }
 
 .sidebar.open {
@@ -217,6 +218,7 @@ a:hover {
     display: block;
     position: fixed;
     width: 100%;
+    padding-top: 15%;
   }
   .sidebar a {
     font-size: 5vw;
@@ -253,7 +255,7 @@ a:hover {
     display: block;
     position: fixed;
     width: 100%;
-    padding-top: 60px;
+    padding-top: 15%;
   }
   .sidebar a {
     font-size: 5vw;
@@ -294,6 +296,12 @@ a:hover {
     display: flex;
    
   }
+  .sidebar {
+    display: block;
+    position: fixed;
+    width: 100%;
+    padding-top: 15%;
+  }
   
 }
 
@@ -311,9 +319,11 @@ a:hover {
     display: block;
     position: fixed;
     width: 100%;
+    padding-top: 10%;
   }
   .sidebar a {
     font-size: 4vw;
+  
   }
   .navbar a {
     display: none;

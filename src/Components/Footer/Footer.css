@@ -9,7 +9,7 @@
     margin-top: auto; 
   }
   
-  .footer a {
+  .light-mode footer a {
     color: blue;
     text-decoration: none; 
   }
@@ -20,4 +20,9 @@
   .dark-mode .footer
   {
     background: linear-gradient(135deg, #555555 0%, #000000 100%);
+    color: white;
+  }
+  .dark-mode footer a
+  {
+    color:white;
   }

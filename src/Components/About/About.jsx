@@ -29,7 +29,7 @@ function About() {
             I focus on crafting dynamic, responsive user interfaces using technologies like ReactJS.<br/>
             In addition to my passion for frontend development , <br/> I enjoy working with data and have a strong interest in SQL for managing and querying databases.<br/>
             My goal is to create intuitive digital solutions that enhance user experience and bring ideas to life.<br/>
-            <img src="/computer-engineer.png" alt="Coding_Image_in_about" className='home-img'/>
+            <img src="/security _lap.png" alt="Coding_Image_in_about" className='home-img'/>
         </div>
         
     );
