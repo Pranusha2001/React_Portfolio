@@ -15,10 +15,6 @@ const experienceData = [
         body: "Implemented UI/UX improvements using HTML, CSS, JavaScript, and ReactJS to enhance visual appeal and functionality."
       },
       {
-        heading: ".NET Documentation:",
-        body: "Created user documentation for existing .NET applications."
-      },
-      {
         heading: "Responsive Web Development:",
         body: "Coded responsive pages using HTML, CSS, and JavaScript, ensuring compatibility across web and mobile platforms with media queries."
       }
